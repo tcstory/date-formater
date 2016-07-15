@@ -1,0 +1,24 @@
+{
+  "name": "dateformater-tc",
+  "version": "0.1.0",
+  "description": "日期格式化",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcstory/date-formater.git"
+  },
+  "author": "tcstory@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tcstory/date-formater/issues"
+  },
+  "homepage": "https://github.com/tcstory/date-formater#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
