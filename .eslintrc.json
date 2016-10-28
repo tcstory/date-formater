@@ -1,0 +1,27 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    },
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-console": 0,
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "no-underscore-dangle": 0,
+    "prefer-arrow-callback": 0,
+    "no-lonely-if": 0,
+    "quote-props": 0
+  }
+}
